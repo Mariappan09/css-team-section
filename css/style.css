@@ -1,0 +1,98 @@
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;	
+}
+@media(min-width:320px){
+		.container{
+	width:95%;
+	margin:auto;
+	
+}
+.sec-row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.sec-col{
+		width:100%;
+		justify-content:center;
+		padding:50px;
+	}
+	.sec-cad{
+		padding:20px;
+		width:100%;
+	}
+}	
+@media(min-width:620px){
+		.container{
+	width:90%;
+	margin:auto;
+	
+}
+.sec-row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.sec-col{
+		width:50%;
+		justify-content:center;
+		padding:50px;
+	}
+	.sec-cad{
+		padding:20px;
+		width:50%;
+	}
+}
+@media(min-width:1000px){
+		.container{
+	width:85%;
+	margin:auto;
+	
+}
+.sec-row{
+	display:flex;
+	/* flex-wrap:wrap; */
+}
+
+.sec-col{
+		width:50%;
+		justify-content:center;
+		padding:50px;
+	}
+	.sec-cad{
+		padding:20px;
+		width:25%;
+	}
+}
+.sec-card{
+	border:2px solid gray;
+	border-radius:10px;
+	text-align:center;
+	box-shadow:10px 10px 10px 10px #ccc;
+}
+
+
+.sec-head h1{
+		font-size:40px;
+	}
+.sec-p h2{
+		padding:10px;
+	}
+.sec-p{
+		margin-bottom:70px;
+		padding:30px;
+		
+	}
+
+
+.sec-p i{
+	font-size:50px;
+	color:blue;
+}
+.sec-p p{
+	justify-content:center;
+	padding:10px;
+}
